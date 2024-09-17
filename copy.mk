@@ -9,7 +9,7 @@ PRODUCT_COPY_FILES += \
       $(PC_PATH)/Lock.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ui/Lock.ogg \
       $(PC_PATH)/Unlock.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ui/Unlock.ogg \
       $(PC_PATH)/LowBattery.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ui/LowBattery.ogg \
-      $(PC_PATH)/bootanimation.zip:$(TARGET_COPY_OUT_PRODUCT)//media/bootanimation.zip
+      $(PC_PATH)/bootanimation.zip:$(TARGET_COPY_OUT_PRODUCT)/media/bootanimation.zip
 
 DEVICE_PACKAGE_OVERLAYS += \
        $(PC_PATH)/overlay
