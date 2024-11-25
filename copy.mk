@@ -1,6 +1,6 @@
 PRODUCT_SOONG_NAMESPACES += vendor/custom/stuff
 
-PC_PATH=vendor/custom/stuff
+PC_PATH := vendor/custom/stuff
 
 PRODUCT_COPY_FILES += \
       $(PC_PATH)/product/media/audio/ui/ChargingStarted.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ui/ChargingStarted.ogg \
